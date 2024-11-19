@@ -13,22 +13,22 @@ public class Main {
 
         System.out.println(Arrays.toString(sales));
 
-        int actualSum = service.sumSales(sales);
+        long actualSum = service.sumSales(sales);
         System.out.println(actualSum);
 
-        int actualAvg = service.avgMonthSales(sales);
+        long actualAvg = service.avgMonthSales(sales);
         System.out.println(actualAvg);
 
-        int actualMin = service.minSales(sales);
+        long actualMin = service.minSales(sales);
         System.out.println(actualMin);
 
-        int actualMax = service.maxSales(sales);
+        long actualMax = service.maxSales(sales);
         System.out.println(actualMax);
 
-        int actualMinAvg = service.minAvgSales(sales);
+        long actualMinAvg = service.minAvgSales(sales);
         System.out.println(actualMinAvg);
 
-        int actualMaxAvg = service.maxAvgSales(sales);
+        long actualMaxAvg = service.maxAvgSales(sales);
         System.out.println(actualMaxAvg);
     }
 }

@@ -13,8 +13,8 @@ public class StatsServiceTest {
                 8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18
         };
 
-        int exepted = 180;
-        int actualSum = service.sumSales(sales);
+        long exepted = 180;
+        long actualSum = service.sumSales(sales);
         System.out.println(actualSum);
         Assertions.assertEquals(exepted, actualSum);
     }
@@ -27,8 +27,8 @@ public class StatsServiceTest {
                 8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18
         };
 
-        int expected = 15;
-        int actualAvgMonthSales = service.avgMonthSales(sales);
+        long expected = 15;
+        long actualAvgMonthSales = service.avgMonthSales(sales);
         System.out.println(actualAvgMonthSales);
         Assertions.assertEquals(expected, actualAvgMonthSales);
     }
